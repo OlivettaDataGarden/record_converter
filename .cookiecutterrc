@@ -70,6 +70,5 @@ default_context:
     travis_osx:                'no'
     version:                   '0.0.0'
     version_manager:           'bump2version'
-    website:                   'https://blog.geodatagarden.com'
     year_from:                 '2022'
     year_to:                   '2022'

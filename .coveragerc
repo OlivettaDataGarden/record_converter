@@ -7,10 +7,16 @@ source =
 branch = true
 source =
     record_converter
-    tests
 parallel = true
+omit =
+    src/record_converter/__main__.py
+    src/record_converter/cli.py
 
 [report]
 show_missing = true
 precision = 2
-omit = *migrations*
+omit =
+    *migrations*
+    src/record_converter/__main__.py
+    src/record_converter/cli.py
+
